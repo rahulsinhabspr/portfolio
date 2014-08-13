@@ -1,0 +1,22 @@
+#left {
+position:relative;
+	left: 17%;
+	top: 25%;
+	background: black;
+	color: white;
+}
+
+#left p{
+	display: inline;
+}
+
+#show {
+	color:yellow;
+	display:none;
+	
+}
+
+#left p.parent:hover #show  {
+	color: green;
+	display: block;
+}

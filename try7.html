@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Hover</title>
+    <style>
+        #csshover ul { 
+            position:           relative;
+            margin:             0;
+            padding:            0; 
+        }        
+        #csshover li {
+            list-style-type:    none;
+            display:            inline-block;
+            margin-right:       3em;  
+            cursor:             pointer;   
+        }
+        #csshover li p {
+            position:           absolute;
+            top:                2em;   
+            display:            none;
+            left:               0em;
+        }
+        #csshover li:hover p {
+            display:            inherit;
+        }
+    </style>
+</head>
+<body>
+    <article id="csshover">
+        <h1>CSS Hover Trick</h1>
+        <p>Hover over each of the words below.  Look for status message below!</p>
+        <ul>
+            <li><div>CSS  </div><p>It's all about the style!</p></li>
+            <li><div>Hover</div><p>When you wander above...</p></li>
+            <li><div>Trick</div><p>Look Ma, no JavaScript!</p></li>
+        </ul>
+    </article>
+</body>
+</html>

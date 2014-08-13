@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	  <title>try9</title>
+<style>
+
+#left {
+	position:relative;
+	left: 17%;
+	top: 15%;
+	bottom:10px;
+	background: pink;
+	width: 13%;
+	height: 65%;
+	
+}
+
+#left div {
+    border-radius:100%;
+    border: 2px solid yellow;
+	margin-top: 10px;
+	margin-bottom:10px;
+	background: black;
+	color: white;
+	
+}
+div p  {
+	padding: 10px;
+	color: green;
+	text-align: center;
+	font-family: Verdana,calibri, sans-serif;
+	font-size: 1em;
+}
+
+
+ li {
+		display: none;
+	}
+	#menuReferences, #menuAddInfo, #menuExperience, #menuQualification  {
+		color: green;
+	}
+	
+	#menuReferences:hover, #menuAddInfo:hover, #menuExperience:hover, #menuQualification:hover {
+		
+		 color:orange;
+	}
+	
+	 
+	
+	#menuReferences:hover li, #menuAddInfo:hover li, #menuExperience:hover li, #menuQualification:hover li  {
+		display: block;
+		color: blue;
+		position: relative;
+		right: 90px;
+  	} 
+
+</style>
+</head>
+<body>
+		<aside id="left">
+		<div class="features" id="menuExperience"><p>Experience</p>
+			<ul>
+				<li class="show">Sutherland Global Services(Current)</li>
+				<li class="show">IIITD&M Kancheepuram (HTTA)</li>
+				<li class="show">Intelenet Global Services</li>
+			</ul>
+		</div>
+		<div class="features" id="menuQualification"><p>Educational Credentials</p>
+			<ul>
+				<li class="show">Post Graduation</li>
+				<li class="show">Graduation</li>
+				<li class="show">Class XII</li>
+				<li class="show">Class X</li>
+			</ul>
+		</div>
+		<div class="features" id="menuAddInfo"><p>Additional Information</p>
+			<ul>
+				<li class="show">Parents</li>
+				<li class="show">Date of Birth</li>
+				<li class="show">Hobbies</li>
+			</ul>
+		</div>
+		<div class="features" id="menuReferences"><p>References</p>
+			<ul>
+				<li class="show">Dr. Masilamani V</li>
+				<li class="show">Mr. Amanraj Singh</li>
+			</ul>
+		</div>
+	</aside>
+</body>
+</html>	

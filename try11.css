@@ -1,0 +1,19 @@
+
+
+body{
+	background: green;
+}
+
+#left {
+	position: relative;
+	top: 30%;
+	left:50%;
+	background: blue;
+	padding-left:20px;
+
+}
+
+#menuExperience li.show {
+	color:yellow;
+
+}

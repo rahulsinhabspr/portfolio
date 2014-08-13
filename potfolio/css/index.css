@@ -1,0 +1,26 @@
+ body{
+        text-align: center;
+        background: url("http://www.jaquesamerica.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/i/file_8_14.gif);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color:white;
+        font-family: Helvetica;
+    }
+    h2,p {
+    font-size: 24px;
+}
+
+input {
+  border: 0;
+  pading: 12px;
+  font-size: 18px;
+}
+img{
+    
+}
+input[type="submit"] {
+  background: limegreen;
+  color: black;
+}
