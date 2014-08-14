@@ -1,0 +1,6 @@
+#hover-content:hover {
+    color: yellow;
+}
+#parent:hover {
+    color:green;
+}
