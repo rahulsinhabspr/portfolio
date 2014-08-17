@@ -1,0 +1,36 @@
+body {
+	background: yellow;
+	display: inline;
+}
+
+div {
+	display: inline;
+	
+}
+
+#left div.content{
+	position:relative;
+	left:25%;
+	top:35%;
+    border-radius:100%;
+    border: 2px solid pink;
+	margin-top: 20px;
+	margin-left: -4%;
+	background: black;
+	color: white;
+	padding: 20px;
+	text-align:justify;
+	
+}
+
+#left div.hoverovercontent{
+display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #2C5463;
+    margin-left: 1px;
+    white-space: nowrap;
+	
+}
