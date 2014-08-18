@@ -1,0 +1,46 @@
+
+/*Basic reset*/
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+/* header */
+#header {
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	margin-top: -20px;
+	height: 60px;
+	background: #668284;
+	margin-bottom: 10px;
+}
+
+#name {
+	float:left;
+	margin-left: 15px;
+	padding-top: 15px;
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#number {
+	float:left;
+	margin-left: 30%;
+	padding-top: 15px;
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email {
+	float:right;
+	margin-right: 15px;
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
